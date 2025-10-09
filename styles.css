@@ -4,14 +4,14 @@ body {
     height: 100vh;
 }
 
-.section.logo {
+.main_image {
     flex: 1;
     background-image: url('img/bg_image.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.section.sign-in {
+.account {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
     border: solid 1px blue;
 }
 
-.section.sign-in > * {
+.account > * {
     border: 1px solid blue;
     flex: 1;
 }
