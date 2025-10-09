@@ -8,6 +8,7 @@ body {
     flex: 1;
     background-image: url('img/bg_image.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .section.sign-in {
