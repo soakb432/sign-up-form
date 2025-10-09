@@ -6,7 +6,8 @@ body {
 
 .section.logo {
     flex: 1;
-    border: solid 1px red;
+    background-image: url('img/bg_image.jpg');
+    background-size: cover;
 }
 
 .section.sign-in {
