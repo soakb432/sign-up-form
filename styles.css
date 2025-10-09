@@ -1,9 +1,13 @@
 body {
     display: flex;
-    justify-content: space-evenly;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.section.logo {
+    flex: 1;
+    border: solid 1px red;
+}
+
+.section.sign-in {
+    flex: 2;
+    border: solid 1px blue;
 }
