@@ -14,23 +14,36 @@
             <p>You know you want to.</p>
         </div>
         <form id="sign_in" method="get">
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name">
-
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-
-            <label for="phone_number">Phone number</label>
-            <input type="tel" id="phone_number" name="phone_number">
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-
-            <label for="confirm_password">Confirm Password</label>
-            <input type="text" id="confirm_password"">
+            <fieldset>
+                <p>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">
+                </p>
+                <p>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p>
+                    <label for="phone_number">Phone number</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </p>
+                <p>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="text" id="confirm_password"">
+                </p>
+            </fieldset>
         </form>
         <div class="account">
             <button form="sign_in" type="submit">Create Account</button>

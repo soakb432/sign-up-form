@@ -16,10 +16,23 @@ body {
     flex-direction: column;
     justify-content: center;
     flex: 2;
-    border: solid 1px blue;
 }
 
 .main_page > * {
-    border: 1px solid blue;
     flex: 1;
+}
+
+#sign_in {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+fieldset {
+    display: flex;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
 }
