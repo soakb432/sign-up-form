@@ -25,6 +25,7 @@ body {
 #sign_in {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     border: 1px solid blue;
 }
 
@@ -37,7 +38,7 @@ p {
     flex-direction: column;
 }
 
-fieldset, fieldset p {
+fieldset, fieldset p, h1{
     margin: 0;
     padding: 0;
     border: 0;
