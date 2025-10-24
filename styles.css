@@ -28,6 +28,10 @@ body {
     flex: 1;
 }
 
+.information p {
+    font-weight: bold;
+}
+
 #sign_in {
     display: flex;
     flex-direction: column;
@@ -39,12 +43,12 @@ fieldset {
     display: flex;
 }
 
-p {
+fieldset p {
     display: flex;
     flex-direction: column;
 }
 
-fieldset, fieldset p, h1{
+fieldset, fieldset p, h1 {
     margin: 0;
     padding: 0;
     border: 0;
